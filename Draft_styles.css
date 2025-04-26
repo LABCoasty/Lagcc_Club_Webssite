@@ -1,0 +1,415 @@
+/* Leadership Section */
+.leadership {
+    text-align: center;
+    padding: 50px;
+    background-color: burlywood;
+}
+
+.leadership h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4; /* Light background for the section */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content {
+    max-width: 60%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .join-us {
+    max-width: 30%;
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+  }
+  
+  .join-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #e91109; /* Redhawks color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-button:hover {
+    background-color: #c9302c;
+  }
+
+
+/* Advisors Section: 2 per row */
+.advisors-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+/* Club Leaders Section: 4 per row */
+.club-leaders-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+/* Additional Members Section: 2 per row */
+.additional-members-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Common Styles for Leader Cards */
+.leader {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.leader-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.leader h2 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.leader p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Contact Links */
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a.linkedin {
+    color: #0077B5;
+}
+
+.contact a.email {
+    color: #333;
+}
+
+.contact a:hover {
+    color: #005bb5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Adjust as needed */
+    box-shadow: 0 4px 2px -2px gray; /* Adds a subtle shadow for a floating effect */
+    z-index: 1000; /* Ensures the nav stays on top of other elements */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem; /* Adds some padding for spacing */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px; /* Adds spacing between links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff; /* Change the link color on hover */
+    transition: color 0.3s ease;
+  }
+  
+
+
+
+.help_title {
+    text-align: center;
+}
+
+
+  .projects {
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .project {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .project h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+
+
+  .need-help {
+    padding: 40px 20px;
+  }
+  
+  .need-help h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .need-help p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* General Styling for Resource Sections */
+  .resources {
+    margin-bottom: 50px;
+  }
+  
+  .resources h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .resource-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .resource {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .resource img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .resource img:hover {
+    transform: scale(1.05);
+  }
+  
+  .resource p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Ensure proper spacing between sections */
+  .resources + .resources {
+    margin-top: 60px;
+  }
+  
+  @media (max-width: 768px) {
+    .resource-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .resource {
+      margin-bottom: 20px;
+    }
+  }
+
+/* Learning Section */
+
+  .learning-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .learning-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .learning-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .learning-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .learning-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .learning-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .learning-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .learning-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .learning-item {
+      margin-bottom: 20px;
+    }
+  }
+  
+ Blog Section
+
+  .blog-section {
+    background: #ffffff;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .blog-section h1 {
+    font-size: 2em;
+    color: #2a7de1;
+  }
+  
+  .post-form {
+    margin-top: 20px;
+    text-align: left;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .post-form input, .post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  .post-form button {
+    background-color: #2a7de1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blog-posts {
+    margin-top: 30px;
+  }
+  
+  .blog-post {
+    background: #f0f4fc;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .blog-post h3 {
+    margin: 0 0 5px 0;
+    color: #2a7de1;
+  }
+  
+  .blog-post small {
+    color: #777;
+  }
+  
